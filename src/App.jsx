@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, FileText } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, Instagram } from 'lucide-react';
 import styles from './App.module.css';
 
 function App() {
@@ -18,13 +18,16 @@ function App() {
             <a href="https://www.linkedin.com/in/preston-tang" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
               <Linkedin />
             </a>
+            <a href="http://instagram.com/prestontangg" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+              <Instagram />
+            </a>
             <a href="mailto:prestonltang@nyu.edu" className={styles.socialIcon}>
               <Mail />
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-              <FileText />
-            </a>
           </div>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
+              View Resume
+            </a>
         </div>
       </header>
 
